@@ -75,8 +75,12 @@ WSGI_APPLICATION = 'ocean.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'cats',
+        'USER': 'doadmin',
+        'PASSWORD': 'i55refvsbm6eo9rn',
+        'HOST': 'db-postgresql-nyc1-50458-do-user-2592789-0.b.db.ondigitalocean.com',
+        'PORT': '25060',
     }
 }
 
