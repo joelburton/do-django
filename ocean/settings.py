@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'n!tokl2e!b@0)_ah7a=#ffx(%nil*1m3@vu(89q&n6r!6s3^b%'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['do-django-xl9xh.ondigitalocean.app']
+ALLOWED_HOSTS = ['do-django-xl9xh.ondigitalocean.app', 'ocean.joelburton.net']
 
 
 # Application definition
@@ -83,6 +83,7 @@ DATABASES = {
         'PASSWORD': 'i55refvsbm6eo9rn',
         'HOST': 'db-postgresql-nyc1-50458-do-user-2592789-0.b.db.ondigitalocean.com',
         'PORT': '25060',
+        'CONN_MAX_AGE': None,
     }
 }
 
