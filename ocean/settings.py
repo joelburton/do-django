@@ -25,7 +25,7 @@ SECRET_KEY = 'n!tokl2e!b@0)_ah7a=#ffx(%nil*1m3@vu(89q&n6r!6s3^b%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['do-django-xl9xh.ondigitalocean.app']
 
 
 # Application definition
